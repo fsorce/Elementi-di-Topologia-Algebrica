@@ -1,0 +1,7 @@
+Definiamo il prodotto cup considerando l'indotta dall'[[3-Approssimazione diagonale|approssimazione diagonale]] sulle cocatene come segue:$$\cup:\funcDef{C^p(X,R)\otimes C^q(X,R)}{C^{p+q}(X,R)}{\vp\otimes \psi}{\vp\cup \psi}$$dove $(\vp\cup\psi)(\sigma)=(-1)^{pq}\vp(\sigma^1_p)\psi(\sigma^2_q))$.
+
+Nota che è un morfismo di cocatene: $\delta(\vp\cup\psi)=\delta\vp\cup\psi+(-1)^p\vp\cup\delta\psi$, quindi passa in coomologia.
+
+Il prodotto cup sulle coomologie è commutativo a meno del segno: $[\vp]\cup[\psi]=(-1)^{pq}[\psi]\cup[\vp]$. Per vederlo nota che applicare la trasformazione sopra su $(C_\bullet(X)\otimes C_\bullet(X))_{p+q}$ restituisce un morfismo di catene naturale $\tau$ tale che $\tau\circ \Delta=\Delta$, quindi per [[1-Teorema dei funtori liberi-aciclici|funtori liberi-aciclici]] troviamo che i due termini sopra sono indotti in coomologia da morfismi di catene omotopi, quindi [[1-Omotopia di catene|coincidono]].
+
+In coomologia relativa consideriamo il prodotto cup come derivante dalla composizione$$H^\bullet(X,A)\otimes H^\bullet(X,B)\to H^\bullet(X\times X,X\times B\cup A\times X)\to H^\bullet(X,A\cup B)$$dove il primo morfismo deriva dalla [[3-Formula di Kunneth|formula di Kunneth]] per [[3-Prodotto di coppie|prodotti di coppie]] e il secondo dalla diagonale (notiamo che $(X\times B\cup A\times X)\cap \imm \Delta=A\cup B$)

@@ -1,0 +1,2 @@
+Siano $(X,x_0)$ e $(Y,y_0)$ spazi puntati. Il loro prodotto smash è$$X\wedge Y=\frac{X\times Y}{X\times \cpa{y_0}\cup \cpa{x_0}\times Y}$$
+Osserviamo che $$I^n/\del I^n=(I/\del I)^{\wedge n}\cong (S^1)^{\wedge n}\cong S^n,$$dove l'ultimo omeomorfismo puntato segue per induzione su $n$:$$(\R^{n-1}\cup \infty)\wedge (\R\cup \infty)=\frac{\R^{n}\cup \R^{n-1}\times \infty\cup \infty\times \R\cup \infty^2}{(\R^{n-1}\times \infty\cup \infty^2)\cup (\infty\times \R\cup \infty^2)}=\R^n\cup \infty\cong S^n.$$

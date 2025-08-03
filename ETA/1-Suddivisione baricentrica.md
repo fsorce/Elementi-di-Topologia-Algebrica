@@ -1,0 +1,4 @@
+Il baricentro di un simplesso affine $\sigma=[v_0,\cdots, v_p]$ è$$\sigma^\beta=\frac1{p+1}\sum_{i=0}^pv_i$$e la suddivisione baricentrica è costruita come segue:
+Impongo linearità e naturalità, per cui basta definirla su $\iota_n$. Pongo$$B(\iota_p)=\begin{cases}\iota_0 &p=0\\\iota_p^\beta\cdot B(\iota_{p-1})&p>0\end{cases}.$$Nota che è un morfismo di catene facendo il conto (torna comodo ricordare che $\del v\cdot\sigma=\sum (-1)^iv\cdot\sigma\circ d^i=\sigma-v\cdot \del \sigma$ lavorando con i $\del$ del complesso aumentato).
+
+Noto che in grado $0$ coincide con $\iota$ ed è un morfismo naturale, quindi per il [[1-Teorema dei funtori liberi-aciclici]] si ha che $B$ e $\iota$ sono omotope (e quindi anche $B^k$ e $\iota$ lo sono).

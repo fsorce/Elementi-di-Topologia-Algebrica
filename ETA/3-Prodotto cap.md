@@ -1,0 +1,11 @@
+Sia $\e:C^\bullet(X)\otimes C_\bullet\to\Z[0]$ il morfismo di [[3-Valutazione di cocatene|valutazione di cocatene]] e sia $\wt \Delta=EZ\circ \Delta:C_\bullet(X)\to C_\bullet(X)\otimes C_\bullet(X)$ la composizione tra l'omomorfismo indotto dalla diagonale e [[3-Eilenberg-Zilber|Eilenberg-Zilber]]. Consideriamo la composizione$$C^\bullet(X)\otimes C_\bullet(X)\overset{id\otimes\wt\Delta}\to C^\bullet(X)\otimes C_\bullet(X)\otimes C_\bullet(X)\overset{\e\otimes id}\to \Z[0]\otimes C_\bullet(X)\cong C_\bullet(X).$$Osserviamo che $C^i(X)\otimes C_n(X)\to C^i(X)\otimes (C_\bullet(X)\otimes C_\bullet(X))_n$ e alla prossima mappa sopravvive solo l'addendo corrispondente a $C^i(X)\otimes C_i(X)\otimes C_{n-i}(X)$, che viene mappato in $\Z\otimes C_{n-i}(X)\cong C_{n-i}(X)$.
+
+Passando in omologia e precomponendo con la mappa $H^\bullet(X)\otimes H_\bullet(X)\to H_\bullet(C^\bullet(X)\otimes C_\bullet(X))$ data dalla [[3-Formula di Kunneth|formula di Kunneth]] ricaviamo$$\cap:H^i(X)\otimes H_n(X)\to H_{n-i}(C^\bullet(X)\otimes C_\bullet(X))\to H_{n-i}(X)$$che chiamiamo prodotto cap.
+
+Ricordando la scrittura esplicita dell'[[3-Approssimazione diagonale|approssimazione diagonale di Alexander Whitney]] troviamo che$$\vp\cap \sigma=(-1)^{|\vp|(|\sigma|-|\vp|)}\vp(\sigma^1_{|\vp|})\sigma^2_{|\sigma|-|\vp|}.$$
+C'è una relazione computazionale immediata tra il prodotto cap e il [[3-Prodotto cup|prodotto cup]]$$\ps{\al,\beta\cap c}=\ps{\beta\cup \al,c}$$$\ul{dim}:$ Calcoliamo$$\begin{align}
+\ps{\al,\beta\cap c}=&\ps{\al,(-1)^{|\beta||\al|}\beta(c^1_{|\beta|})c^2_{|\al|}}=\\
+=&(-1)^{|\al||\beta|}\beta(c^1_{|\beta|})\al(c^2_{|\al|})=\\
+=&\ps{\beta\cup\al,c}.
+\end{align}$$
+Possiamo definire anche un cap product in omologia relativa. Notiamo infatti che$$C_\bullet(X,A\cup B)\overset{\Delta}\to C_\bullet(X\times X,A\cup B\times A\cup B)\overset{\subseteq_\ast}\to C_\bullet((X,A)\times (X,B))\overset{EZ}\to C_\bullet(X,A)\otimes C_\bullet(X,B)$$quindi abbiamo $\cap:H^i(X,A)\otimes H_n(X,A\cup B)\to H_{n-i}(X,B)$.

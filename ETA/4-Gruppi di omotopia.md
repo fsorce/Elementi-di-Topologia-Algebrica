@@ -1,0 +1,2 @@
+Sia $(X,x_0)$ uno spazio topologico puntato. Poniamo$$\pi_n(X,x_0)=[(S^n,\ast),(X,x_0)]=[S^n,X]^0$$ o per quanto detto sul [[4-Prodotto Smash|prodotto smash]] $\pi_n(X,x_0)=[I^n/\del I^n,X]^0\cong [(I^n,\del I^n),(X,x_0)]$.
+Questa scrittura ci permette di definire una operazione. Più precisamente $[(S^n\wedge X,\ast),(Y,y_0)]$ è un gruppo per ogni $n\geq 1$ e per $n\geq 2$ è anche abeliano.

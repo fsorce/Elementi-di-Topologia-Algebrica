@@ -1,0 +1,8 @@
+Notiamo che gli spazi proiettivi sono [[2-Complessi CW]], infatti $\Pj^{n+1}\K=\Pj^n\K\cup e$, dove $e$ è una $n$-cella se $\K=\R$, una $2n$-cella se $\K=\C$ o una $4n$-cella se $\K=\Hb$.
+
+Sfruttando questa costruzione notiamo che i [[2-Complesso cellulare|complessi cellulari]] dei proiettivi complessi hanno la forma$$\Z\to0\to\Z\to0\to\Z\to\cdots\to\Z\to0\to\Z$$(similmente per i quaternionici ma con 3 zeri di separazione al posto di uno). Segue che tutte le mappe di bordo sono la mappa nulla, quindi i bordi sono tutti nulli e ogni ogni catena è un ciclo, cioè $H_\bullet(\Pj^n\C)=C^{CW}_\bullet(\Pj^n\C)$ e similmente per $\Pj^n\Hb$.
+
+Ricordiamo che possiamo pensare al proiettivo reale $\Pj^n\R$ come quoziente tramite l'identificazione indotta dalla [[2-Mappa antipodale|mappa antipodale]] $\al:S^n\to S^n$. 
+Sfruttando quanto visto sulla relazione tra $\al_\ast$ e i generatori delle celle nel [[1-Omologia della sfera|complesso cellulare della sfera]] notiamo anche che tramite l'identificazione antipodale, entrambi gli emisferi della sfera vengono mandati omeomorficamente nella cella che incolliamo in $\Pj^n\R$, mentre l'equatore viene mappato in $\Pj^{n-1}\R$.
+
+Siano $x^i$ generatore di $H_i(D^i_+,S^{i-1})$ e $y^i$ generatore di $H_i(D^i,\Pj^{i-1}\R)=H_i(D^i,S^{i-1})$ tali che $\pi(x^i)=y^i$ (da cui $\pi(\al_\ast x^i)=y^i$). Vediamo come agisce la mappa di bordo sul complesso cellulare del proiettivo:$$d_i(y^i)=\pi(d_i(x^i))=\pm\pi(\al_\ast x^{i-1}+(-1)^ix^{i-1})=\pm(1+(-1)^i)y^{i-1},$$cioè la mappa di bordo agisce in modo alternato come la mappa nulla e la moltiplicazione per $2$$$\Z\overset{1+(-1)^n}\to\Z\to\cdots\to\Z\overset2\to\Z\overset{0}{\to}\Z\to0$$e da questo segue trivialmente l'omologia.

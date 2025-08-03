@@ -1,0 +1,1 @@
+Dato un complesso di catene $(C_\bullet,\del)$ possiamo costruire il complesso di cocatene $(C^\bullet,\delta)=(Hom(C,G),Hom(\del,G))$ dato ponendo $C^n=Hom(C_n,G)$. Nel caso di complessi di catene singolari scriviamo$$C^\bullet(X;G)\leadsto H^\bullet(X;G).$$

@@ -1,0 +1,1 @@
+Supponi che non si sia punto fisso, allora esisterebbe una retrazione per deformazione da $D^n$ a $S^{n-1}$, ma hanno [[1-Omologia della sfera|gruppi di omologia diversi]].

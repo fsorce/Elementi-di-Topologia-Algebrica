@@ -1,0 +1,1 @@
+È esatta la seguente successione di [[4-Gruppi di omotopia relativa|gruppi di omotopia relativa]]$$\to \pi_n(A)\to \pi_n(X)\to \pi_n(X,A)\to \pi_{n-1}(A)\to\cdots\to \pi_0(A)\to \pi_0(X)$$$\ul{dim}:$ Grazie all'[[4-Isomorfismo aggiunto|isomorfismo aggiunto]] basta mostrare l'esattezza di$$\pi_1(A)\to\pi_1(X)\to\pi_1(X,A)\to\pi_0(A)\to\pi_0(X)$$

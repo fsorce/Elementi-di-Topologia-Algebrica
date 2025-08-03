@@ -1,0 +1,1 @@
+Siano $A,B$ degli $R$-moduli. Un omomorfismo $A\otimes B\to R$ si dice dualità se induce isomorfismi $A\to Hom(B,R)$ e $B\to Hom(A,R)$.
